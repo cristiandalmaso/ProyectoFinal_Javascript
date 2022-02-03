@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nike Air Jordan 1-1",
+    "precio": 200,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Nike Air Jordan 1-1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Nike Dunk Low Multi-Camo",
+    "precio": 175,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Nike Dunk Low Multi-Camo.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Nike Dunk Low SE FREE.99",
+    "precio": 200,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Nike Dunk Low SE FREE.99.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Nike Dunk Low SP City Market",
+    "precio": 250,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Nike Dunk Low SP City Market.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Nike SB Zoom Dunk HP QS Kevin Bradley",
+    "precio": 350,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Nike SB Zoom Dunk High Pro QS Kevin Bradley.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Nike Air Force 1 Low 'Just Do It",
+    "precio": 75,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Nike Air Force 1 Low 'Just Do It'.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Vans Old Skool LOGO",
+    "precio": 120,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Vans Old Skool LOGO.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Vans Rowan",
+    "precio": 135,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Vans Rowan.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Vans SK8-Hi MTE-2",
+    "precio": 150,
+    "cantidad": 50,
+    "stock": true,
+    "imagen": "./images/Vans SK8-Hi MTE-2.jpg"
+  }
+]

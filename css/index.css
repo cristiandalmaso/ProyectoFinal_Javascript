@@ -1,0 +1,288 @@
+* {
+  background-color: rgba(238, 238, 238, 0.918);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.container-header {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  height: 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 30% 30%;
+      grid-template-columns: 40% 30% 30%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-header h1 {
+  font-family: 'Readex Pro', sans-serif;
+  margin-bottom: 0rem;
+}
+
+.container-header .usuario {
+  font-family: 'Readex Pro', sans-serif;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-header .totalAcumulado {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.corrige-carousel {
+  background-color: transparent;
+}
+
+.container-productos {
+  margin-top: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -ms-grid-rows: 33% 33% 33%;
+      grid-template-rows: 33% 33% 33%;
+}
+
+.container-productos .container-individual {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-productos .container-individual .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-productos .container-individual h5 {
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  margin-top: 0.5rem;
+  font-weight: 200;
+  height: 2rem;
+}
+
+.container-productos .container-individual .container-imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0rem;
+}
+
+.container-productos .container-individual .container-imagen img {
+  width: 100%;
+}
+
+.container-productos .container-individual p {
+  text-align: center;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.container-productos .boton-carrito {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+.texto-alert {
+  font-family: 'Readex Pro', sans-serif;
+}
+
+.container-boton-confirmar-compra {
+  margin-bottom: 1rem;
+  text-align: right;
+  margin-right: 2.5rem;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-redes-sociales {
+  background-color: #1f1f1f;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 10% 90%;
+      grid-template-rows: 10% 90%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer .contenedor-redes-sociales span {
+  font-family: 'Readex Pro', sans-serif;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.footer .contenedor-redes-sociales ul {
+  background-color: #1f1f1f;
+  margin: 0rem;
+  margin-top: 1rem;
+  padding: 0rem;
+}
+
+.footer .contenedor-redes-sociales ul li {
+  list-style: none;
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-redes-sociales ul li a {
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-redes-sociales ul li a i {
+  font-size: 2rem;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.footer .contenedor-redes-sociales ul li a i span {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+}
+
+.footer .contenedor-medios-pago {
+  background-color: #1f1f1f;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 10% 90%;
+      grid-template-rows: 10% 90%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer .contenedor-medios-pago span {
+  font-family: 'Readex Pro', sans-serif;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.footer .contenedor-medios-pago ul {
+  background-color: #1f1f1f;
+  margin: 0rem;
+  margin-top: 1rem;
+  padding: 0rem;
+}
+
+.footer .contenedor-medios-pago ul li {
+  list-style: none;
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-medios-pago ul li i {
+  font-size: 2rem;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.footer .contenedor-medios-pago ul li i span {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+}
+
+.footer .contenedor-medios-pago ul li .fa-ethereum:before {
+  margin: 0.5rem;
+}
+
+.footer .contenedor-centro-atencion {
+  background-color: #1f1f1f;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.footer .contenedor-centro-atencion .titulo-centro-atencion {
+  font-family: 'Readex Pro', sans-serif;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.footer .contenedor-centro-atencion span {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1rem;
+  color: whitesmoke;
+  background-color: #1f1f1f;
+}
+/*# sourceMappingURL=index.css.map */
