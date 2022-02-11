@@ -38,9 +38,10 @@ medioPago.addEventListener("change", (e) => {
     }
 })
 
-let confirmarCompra = document.getElementById("realizar-pago");
-confirmarCompra.addEventListener("click", Swal.fire({
-  icon: 'success',
-  title: 'Pago confirmado',
-  text: 'Muchas gracias por su compra!',
-}))
+let realizaPago = document.getElementById("realizar-pago");
+realizaPago.addEventListener("click", ()=>{
+  Swal.fire({
+    icon: 'success',
+    html: `<p class="texto-alert"> Pago confirmado. Muchas gracias por su compra</p>`
+})
+} )

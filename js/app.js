@@ -67,7 +67,8 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Nike Air Jordan 1-1"} </p>`, 
-            width: '25%',
+            width: 'auto',
+            background: 'white',
             timer: 1000,
           });break;
 
@@ -75,7 +76,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Nike Dunk Low Multi-Camo"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
 
@@ -83,7 +84,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Nike Dunk Low SE FREE.99"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
 
@@ -91,7 +92,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Nike Dunk Low SP City Market"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
 
@@ -99,7 +100,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Nike SB Zoom Dunk HP QS Kevin Bradley"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
 
@@ -107,7 +108,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Nike Air Force 1 Low 'Just Do It"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
 
@@ -115,7 +116,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Vans Old Skool LOGO"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
 
@@ -123,7 +124,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Vans Rowan"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
 
@@ -131,7 +132,7 @@ const addCarrito = e =>{
         Swal.fire({
             icon: 'success',
             html: `<p class="texto-alert"> Has añadido al carrito: ${"Vans SK8-Hi MTE-2"} </p>`, 
-            width: '25%',
+            width: 'auto',
             timer: 1000
           });break;
     }

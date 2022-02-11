@@ -132,6 +132,8 @@ body {
 
 .texto-alert {
   font-family: 'Readex Pro', sans-serif;
+  background-color: white;
+  margin-bottom: 0rem;
 }
 
 .container-boton-confirmar-compra {
@@ -284,5 +286,275 @@ body {
   font-size: 1rem;
   color: whitesmoke;
   background-color: #1f1f1f;
+}
+
+@media (min-width: 0px) and (max-width: 321px) {
+  .container-header {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-header img {
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: 0.3rem;
+  }
+  .container-header .usuario {
+    font-family: 'Readex Pro', sans-serif;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: none;
+  }
+  .container-header .totalAcumulado {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+  }
+  .container-productos {
+    margin-top: 2rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 80%;
+        grid-template-columns: 80%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-productos .container-individual {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-productos .container-individual .card .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-productos .container-individual h5 {
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+    font-weight: 200;
+    height: auto;
+  }
+  .container-productos .container-individual .container-imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0rem;
+  }
+  .container-productos .container-individual .container-imagen img {
+    width: 100%;
+  }
+  .container-productos .container-individual p {
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .container-productos .boton-carrito {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    font-family: 'Readex Pro', sans-serif;
+  }
+  .texto-alert {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    margin-bottom: 0rem;
+  }
+  table thead {
+    width: auto;
+    font-size: 0.8rem;
+  }
+  table tbody tr {
+    font-size: 0.8rem;
+  }
+  table tfoot {
+    font-size: 0.8rem;
+  }
+  .container-boton-confirmar-compra {
+    width: 100%;
+    margin-left: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-boton-confirmar-compra button {
+    margin: 0rem;
+  }
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    background-color: #1f1f1f;
+  }
+  .footer .contenedor-redes-sociales {
+    background-color: #1f1f1f;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer .contenedor-redes-sociales span {
+    font-family: 'Readex Pro', sans-serif;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  .footer .contenedor-redes-sociales ul {
+    background-color: #1f1f1f;
+    margin: 0rem;
+    margin-top: 1rem;
+    padding: 0rem;
+  }
+  .footer .contenedor-redes-sociales ul li {
+    list-style: none;
+    background-color: #1f1f1f;
+  }
+  .footer .contenedor-redes-sociales ul li a {
+    background-color: #1f1f1f;
+  }
+  .footer .contenedor-redes-sociales ul li a i {
+    font-size: 0.8rem;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  .footer .contenedor-redes-sociales ul li a i span {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 0.8rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: whitesmoke;
+  }
+  .footer .contenedor-medios-pago {
+    background-color: #1f1f1f;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer .contenedor-medios-pago span {
+    font-family: 'Readex Pro', sans-serif;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  .footer .contenedor-medios-pago ul {
+    background-color: #1f1f1f;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .footer .contenedor-medios-pago ul li {
+    list-style: none;
+    background-color: #1f1f1f;
+  }
+  .footer .contenedor-medios-pago ul li i {
+    font-size: 0.8rem;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  .footer .contenedor-medios-pago ul li i span {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 0.8rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: whitesmoke;
+  }
+  .footer .contenedor-medios-pago ul li .fa-ethereum:before {
+    margin: 0.2rem;
+  }
+  .footer .contenedor-centro-atencion {
+    background-color: #1f1f1f;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer .contenedor-centro-atencion .titulo-centro-atencion {
+    font-family: 'Readex Pro', sans-serif;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  .footer .contenedor-centro-atencion span {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    background-color: #1f1f1f;
+  }
 }
 /*# sourceMappingURL=index.css.map */
