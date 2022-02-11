@@ -1,13 +1,17 @@
 .body-contacto {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 2.5rem;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   background-color: rgba(238, 238, 238, 0.918);
 }
 
+.container-fluid {
+  padding-left: 0rem;
+}
+
 .container-titulo h2 {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   background-color: #1f1f1f;
   color: whitesmoke;
 }
@@ -28,23 +32,153 @@ table {
   width: 100%;
 }
 
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
+.datos-tarjeta {
+  margin-left: 7.8rem;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-redes-sociales {
+  background-color: #1f1f1f;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 10% 90%;
+      grid-template-rows: 10% 90%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer .contenedor-redes-sociales span {
+  font-family: "Readex Pro", sans-serif;
+  background-color: #1f1f1f;
+  color: whitesmoke;
   font-size: 1rem;
-  color: #212529;
-  text-align: left;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.footer .contenedor-redes-sociales ul {
+  background-color: #1f1f1f;
+  margin: 0rem;
+  margin-top: 1rem;
+  padding: 0rem;
+}
+
+.footer .contenedor-redes-sociales ul li {
   list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-redes-sociales ul li a {
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-redes-sociales ul li a i {
+  font-size: 2rem;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.footer .contenedor-redes-sociales ul li a i span {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+}
+
+.footer .contenedor-medios-pago {
+  background-color: #1f1f1f;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 10% 90%;
+      grid-template-rows: 10% 90%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer .contenedor-medios-pago span {
+  font-family: "Readex Pro", sans-serif;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.footer .contenedor-medios-pago ul {
+  background-color: #1f1f1f;
+  margin: 0rem;
+  margin-top: 1rem;
+  padding: 0rem;
+}
+
+.footer .contenedor-medios-pago ul li {
+  list-style: none;
+  background-color: #1f1f1f;
+}
+
+.footer .contenedor-medios-pago ul li i {
+  font-size: 2rem;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.footer .contenedor-medios-pago ul li i span {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+}
+
+.footer .contenedor-medios-pago ul li .fa-ethereum:before {
+  margin: 0.5rem;
+}
+
+.footer .contenedor-centro-atencion {
+  background-color: #1f1f1f;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.footer .contenedor-centro-atencion .titulo-centro-atencion {
+  font-family: "Readex Pro", sans-serif;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.footer .contenedor-centro-atencion span {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 1rem;
+  color: whitesmoke;
+  background-color: #1f1f1f;
 }
 /*# sourceMappingURL=confirmarCompra.css.map */

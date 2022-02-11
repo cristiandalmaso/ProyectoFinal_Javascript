@@ -17,8 +17,8 @@ body {
   height: 5rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 40% 30% 30%;
-      grid-template-columns: 40% 30% 30%;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
   -ms-grid-rows: 100%;
       grid-template-rows: 100%;
   -webkit-box-align: center;
@@ -29,29 +29,30 @@ body {
           justify-content: center;
 }
 
-.container-header h1 {
-  font-family: 'Readex Pro', sans-serif;
-  margin-bottom: 0rem;
-}
-
-.container-header .usuario {
-  font-family: 'Readex Pro', sans-serif;
-  margin-bottom: 0rem;
-  margin-top: 1rem;
-  margin-left: 0rem;
-  margin-right: 0rem;
-  text-align: center;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .container-header .totalAcumulado {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
-  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-header .container-header-carrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+}
+
+.container-header .container-header-carrito a i {
+  color: black;
 }
 
 .corrige-carousel {
@@ -92,7 +93,7 @@ body {
 
 .container-productos .container-individual h5 {
   text-align: center;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   font-size: 1rem;
   margin-bottom: 0rem;
   margin-top: 0.5rem;
@@ -113,7 +114,7 @@ body {
 
 .container-productos .container-individual p {
   text-align: center;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   font-weight: bold;
   margin-top: 1rem;
 }
@@ -127,11 +128,11 @@ body {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.25rem;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
 }
 
 .texto-alert {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   background-color: white;
   margin-bottom: 0rem;
 }
@@ -165,7 +166,7 @@ body {
 }
 
 .footer .contenedor-redes-sociales span {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   background-color: #1f1f1f;
   color: whitesmoke;
   font-size: 1rem;
@@ -198,7 +199,7 @@ body {
 }
 
 .footer .contenedor-redes-sociales ul li a i span {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   font-size: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -219,7 +220,7 @@ body {
 }
 
 .footer .contenedor-medios-pago span {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   background-color: #1f1f1f;
   color: whitesmoke;
   font-size: 1rem;
@@ -248,7 +249,7 @@ body {
 }
 
 .footer .contenedor-medios-pago ul li i span {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   font-size: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -273,7 +274,7 @@ body {
 }
 
 .footer .contenedor-centro-atencion .titulo-centro-atencion {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   background-color: #1f1f1f;
   color: whitesmoke;
   font-size: 1rem;
@@ -282,19 +283,19 @@ body {
 }
 
 .footer .contenedor-centro-atencion span {
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Readex Pro", sans-serif;
   font-size: 1rem;
   color: whitesmoke;
   background-color: #1f1f1f;
 }
 
-@media (min-width: 0px) and (max-width: 321px) {
+@media (min-width: 0px) and (max-width: 426px) {
   .container-header {
     margin-left: 0rem;
     margin-right: 0rem;
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-bottom: 0rem;
-    height: auto;
+    height: 5rem;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
@@ -308,35 +309,38 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .container-header img {
-    font-family: 'Readex Pro', sans-serif;
+  .container-header a img {
     margin-top: 0.3rem;
   }
-  .container-header .usuario {
-    font-family: 'Readex Pro', sans-serif;
-    margin-bottom: 0rem;
-    margin-top: 1rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    text-align: center;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    display: none;
-  }
   .container-header .totalAcumulado {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .container-header .container-header-carrito {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    font-size: 1rem;
+  }
+  .container-header .container-header-carrito a i {
+    color: black;
   }
   .container-productos {
     margin-top: 2rem;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 80%;
-        grid-template-columns: 80%;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
     -ms-grid-rows: auto;
         grid-template-rows: auto;
     -webkit-box-pack: center;
@@ -364,12 +368,12 @@ body {
   }
   .container-productos .container-individual h5 {
     text-align: center;
-    font-family: 'Readex Pro', sans-serif;
-    font-size: 1rem;
+    font-family: "Readex Pro", sans-serif;
+    font-size: 0.8rem;
     margin-bottom: 0rem;
     margin-top: 0.5rem;
     font-weight: 200;
-    height: auto;
+    height: 2rem;
   }
   .container-productos .container-individual .container-imagen {
     display: -webkit-box;
@@ -382,23 +386,23 @@ body {
   }
   .container-productos .container-individual p {
     text-align: center;
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-weight: bold;
     margin-top: 1rem;
+    font-size: 0.8rem;
   }
   .container-productos .boton-carrito {
     font-weight: 400;
-    line-height: 1.5;
     text-align: center;
     vertical-align: middle;
     background-color: transparent;
     padding: 0.375rem 0.75rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 0.25rem;
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
   }
   .texto-alert {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-size: 1rem;
     background-color: white;
     margin-bottom: 0rem;
@@ -425,6 +429,7 @@ body {
   }
   .container-boton-confirmar-compra button {
     margin: 0rem;
+    font-size: 0.8rem;
   }
   .footer {
     display: -ms-grid;
@@ -448,7 +453,7 @@ body {
     margin-bottom: 1rem;
   }
   .footer .contenedor-redes-sociales span {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     background-color: #1f1f1f;
     color: whitesmoke;
     font-size: 0.8rem;
@@ -476,7 +481,7 @@ body {
     width: 100%;
   }
   .footer .contenedor-redes-sociales ul li a i span {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-size: 0.8rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -496,7 +501,7 @@ body {
     margin-bottom: 1rem;
   }
   .footer .contenedor-medios-pago span {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     background-color: #1f1f1f;
     color: whitesmoke;
     font-size: 0.8rem;
@@ -520,7 +525,7 @@ body {
     width: 100%;
   }
   .footer .contenedor-medios-pago ul li i span {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-size: 0.8rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -543,7 +548,7 @@ body {
     margin-bottom: 1rem;
   }
   .footer .contenedor-centro-atencion .titulo-centro-atencion {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     background-color: #1f1f1f;
     color: whitesmoke;
     font-size: 0.8rem;
@@ -551,7 +556,7 @@ body {
     font-weight: bold;
   }
   .footer .contenedor-centro-atencion span {
-    font-family: 'Readex Pro', sans-serif;
+    font-family: "Readex Pro", sans-serif;
     font-size: 0.8rem;
     color: whitesmoke;
     background-color: #1f1f1f;

@@ -1,51 +1,157 @@
-.body-contacto{
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: 2.5rem;
-    font-family: 'Readex Pro', sans-serif;
-    background-color: rgba(238, 238, 238, 0.918);
+.body-contacto {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2.5rem;
+  font-family: "Readex Pro", sans-serif;
+  background-color: rgba(238, 238, 238, 0.918);
 }
 
-.container-titulo{
-    h2{
-        font-family: 'Readex Pro', sans-serif;
-        background-color: rgb(31, 31, 31);
-        color: whitesmoke;
-    }
+.container-fluid {
+  padding-left: 0rem;
+}
+
+.container-titulo {
+  h2 {
+    font-family: "Readex Pro", sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: whitesmoke;
+  }
 }
 
 table {
-    border-collapse: collapse;
-  }
+  border-collapse: collapse;
+}
 
-  .form-select{
-      margin-left: 0.5rem;
-      width: 98%;
-  }
+.form-select {
+  margin-left: 0.5rem;
+  width: 98%;
+}
 
-  .mb-3{
+.mb-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: -8.8rem;
+  width: 100%;
+}
+
+.datos-tarjeta {
+  margin-left: 7.8rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 100%;
+  background-color: rgb(31, 31, 31);
+
+  .contenedor-redes-sociales {
+    background-color: rgb(31, 31, 31);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    span {
+      font-family: "Readex Pro", sans-serif;
+      background-color: rgb(31, 31, 31);
+      color: whitesmoke;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+    ul {
+      background-color: rgb(31, 31, 31);
+      margin: 0rem;
       margin-top: 1rem;
-      margin-bottom: 1rem;
-      margin-left: -8.8rem;
-      width: 100%;
+      padding: 0rem;
+      li {
+        list-style: none;
+        background-color: rgb(31, 31, 31);
+        a {
+          background-color: rgb(31, 31, 31);
+          i {
+            font-size: 2rem;
+            background-color: rgb(31, 31, 31);
+            color: whitesmoke;
+            margin-bottom: 0.5rem;
+            width: 100%;
+            span {
+              font-family: "Readex Pro", sans-serif;
+              font-size: 1rem;
+              align-items: center;
+              color: whitesmoke;
+            }
+          }
+        }
+      }
+    }
   }
 
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin: 0.125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 0.25rem;
+  .contenedor-medios-pago {
+    background-color: rgb(31, 31, 31);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    span {
+      font-family: "Readex Pro", sans-serif;
+      background-color: rgb(31, 31, 31);
+      color: whitesmoke;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+    ul {
+      background-color: rgb(31, 31, 31);
+      margin: 0rem;
+      margin-top: 1rem;
+      padding: 0rem;
+      li {
+        list-style: none;
+        background-color: rgb(31, 31, 31);
+
+        i {
+          font-size: 2rem;
+          background-color: rgb(31, 31, 31);
+          color: whitesmoke;
+          margin-bottom: 0.5rem;
+          width: 100%;
+          span {
+            font-family: "Readex Pro", sans-serif;
+            font-size: 1rem;
+            align-items: center;
+            color: whitesmoke;
+          }
+        }
+        .fa-ethereum:before {
+          margin: 0.5rem;
+        }
+      }
+    }
   }
+
+  .contenedor-centro-atencion {
+    background-color: rgb(31, 31, 31);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+    .titulo-centro-atencion {
+      font-family: "Readex Pro", sans-serif;
+      background-color: rgb(31, 31, 31);
+      color: whitesmoke;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+    span {
+      font-family: "Readex Pro", sans-serif;
+      font-size: 1rem;
+      color: whitesmoke;
+      background-color: rgb(31, 31, 31);
+    }
+  }
+}
