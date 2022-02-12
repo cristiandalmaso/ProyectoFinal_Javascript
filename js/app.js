@@ -1,6 +1,3 @@
-//Listado de usuarios para AJAX
-const URL = "http://hp-api.herokuapp.com/api/characters";
-
 //Constante items
 const items = document.getElementById("container-items");
 const templateCard = document.getElementById("template-card").content;
@@ -219,6 +216,7 @@ const pintarFooterCarrito = () => {
   totalAcumulado.innerHTML = `<span>Total acumulado: ${totalCompra} USD</span>`;
   totalAcumulado.setAttribute("totalAcumulado", totalCompra);
 
+  /* Seteamos el local storage con el total compra */
   const totalStorage = localStorage.setItem("totalCompra", totalCompra);
 
   const clone = templateFooter.cloneNode(true);
@@ -266,5 +264,27 @@ const btnAccion = (e) => {
 //Confirmar compra
 let confirmarCompra = document.getElementById("confirmar-compra");
 confirmarCompra.addEventListener("click", () => {
-  open("./html/confirmarCompra.html");
+    let timerInterval
+Swal.fire({
+  title: 'Procesando compra',
+  timer: 1000,
+  timerProgressBar: true,
+  background: '#e9ecef',
+  color: '#000',
+
+  didOpen: () => {
+    Swal.showLoading()
+    const b = Swal.getHtmlContainer().querySelector('b')
+    timerInterval = setInterval(() => {
+      /* b.textContent = Swal.getTimerLeft() */
+    }, 100)
+  },
+  willClose: () => {
+    clearInterval(timerInterval)
+  }
+}).then((result) => {
+  if (result.dismiss === Swal.DismissReason.timer) {
+    open("./html/confirmarCompra.html");
+  }
+})
 });

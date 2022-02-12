@@ -131,6 +131,15 @@ body {
   font-family: "Readex Pro", sans-serif;
 }
 
+.detalle-carrito {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+
 .texto-alert {
   font-family: "Readex Pro", sans-serif;
   background-color: white;
@@ -401,6 +410,17 @@ body {
     border-radius: 0.25rem;
     font-family: "Readex Pro", sans-serif;
   }
+  .detalle-carrito {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
   .texto-alert {
     font-family: "Readex Pro", sans-serif;
     font-size: 1rem;
@@ -560,6 +580,20 @@ body {
     font-size: 0.8rem;
     color: whitesmoke;
     background-color: #1f1f1f;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-header .totalAcumulado {
+    font-family: "Readex Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=index.css.map */

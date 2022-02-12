@@ -38,37 +38,47 @@
         <h3>DATOS COMPRADOR</h3>
         <h6>Ingresa tus datos para completar tu compra</h6>
     </div>
-    <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-4">
-          <label for="validationCustom01" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationCustom01" value="" required>
+
+    <form class="row g-3 needs-validation">
+      <fieldset>
+      <div class="row">
+        <div class="col">
+          <label for="nombre" class="form-label"></label>
+          <input type="text" class="form-control" id="nombre" value="" placeholder="Nombre" required>
+          <div class="valid-feedback">
+          </div>
+        </div>
+        <div class="col">
+          <label for="validationCustom02" class="form-label"></label>
+          <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Apellido" required>
           <div class="valid-feedback">
             Looks good!
           </div>
         </div>
-        <div class="col-md-4">
-          <label for="validationCustom02" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="validationCustom02" value="" required>
-          <div class="valid-feedback">
-            Looks good!
-          </div>
-        </div>
-        <div class="col-md-4">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+      </div>
+      <div class="row">
+        <div class="col">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="e-mail"required>
             <div id="emailHelp" class="form-text"></div>
         </div>
-        <div class="col-md-6">
-          <label for="validationCustom03" class="form-label">Direccion</label>
-          <input type="text" class="form-control" id="validationCustom03" required>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="validationCustom03" class="form-label"></label>
+          <input type="text" class="form-control" id="validationCustom03" placeholder="Dirección" required>
           <div class="invalid-feedback">
             Ingrese una dirección correcta
           </div>
         </div>
-        <div class="col-md-3">
-          <label for="validationCustom04" class="form-label">Provincia</label>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="validationCustom04" class="form-label"></label>
           <select class="form-select" id="validationCustom04" required>
-            <option selected disabled value="">Seleccionar</option>
+            <option selected disabled value="">Provincia</option>
             <option>Mendoza</option>
             <option>San Juan</option>
             <option>San Luis</option>
@@ -81,15 +91,20 @@
             Seleccione una provincia válida
           </div>
         </div>
-        <div class="col-md-3">
-          <label for="validationCustom05" class="form-label">Código Postal</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="validationCustom05" class="form-label"></label>
+          <input type="text" class="form-control" id="validationCustom05" placeholder= "Código Postal" required>
           <div class="invalid-feedback">
             Ingrese código postal
           </div>
         </div>
+      </div>
 
-        <select class="form-select" id="medio-pago" aria-label="Default select example">
+      <div class="row">
+        <div class="col">
+        <select class="form-select medio-pago" id="medio-pago" aria-label="Default select example">
             <option selected>Seleccionar medio de pago</option>
             <option value="1">Tarjeta de crédito</option>
             <option value="2">Bitcoin</option>
@@ -97,26 +112,18 @@
           </select>
           <div class="mb-3 row" id="contenedor-datos-pago">
         </div>
+      </div>
+      </div>
 
         <div>
             <span id="totalPagar">Total a pagar: </span>
         </div>
-
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-            <label class="form-check-label" for="invalidCheck">
-              Acepta términos y condiciones
-            </label>
-            <div class="invalid-feedback">
-              Debe aceptar términos y condiciones
-            </div>
-          </div>
-        </div>
+      </fieldset>
       </form>
-      <div class="col-12">
-        <button class="btn btn-dark" type="submit" style="margin-bottom: 1rem; margin-top: 1rem" id="realizar-pago">Pagar</button>
-      </div>
+    <div class="col-12">
+      <button class="btn btn-dark" type="submit" style="margin-bottom: 1rem; margin-top: 1rem" id="realizar-pago">Pagar</button>
+    </div>
+
 
       <footer id="footer" class="footer">
         <div class="contenedor-redes-sociales">
@@ -173,7 +180,6 @@
           <span>0810-111-AYUDASNKR</span>
         </div>
       </footer>
-
 
       <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script src="../js/confirmarCompra.js"></script>

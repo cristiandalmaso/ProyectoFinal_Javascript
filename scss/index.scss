@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+body{
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -99,6 +99,15 @@ body {
     border-radius: 0.25rem;
     font-family: "Readex Pro", sans-serif;
   }
+}
+
+.detalle-carrito{
+    font-family: "Readex Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .texto-alert {
@@ -326,6 +335,18 @@ body {
     }
   }
 
+  .detalle-carrito{
+    font-family: "Readex Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+
   .texto-alert {
     font-family: "Readex Pro", sans-serif;
     font-size: 1rem;
@@ -477,4 +498,16 @@ body {
       }
     }
   }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .container-header {
+    
+        .totalAcumulado {
+          font-family: "Readex Pro", sans-serif;
+          font-size: 1rem;
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+        }
+    }
 }
