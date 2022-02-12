@@ -1,6 +1,8 @@
 //Seleccion medio de pago
 const medioPago = document.querySelector("#medio-pago");
 medioPago.addEventListener("change", (e) => {
+  
+  /* Si el medio de pago elegido es 1, despliega menu relacionado a tarjeta de credito */
   if (e.target.value === "1") {
     let datosPago = document.getElementById("contenedor-datos-pago");
     datosPago.innerHTML = ` 
@@ -15,7 +17,10 @@ medioPago.addEventListener("change", (e) => {
           <input type="password" required class="form-control" id="inputPassword">
         </div>
         `;
-  } else if (e.target.value === "2") {
+  } 
+  
+  /* Si la opción elegida es BTC, despliega menu para datos billetera BTC */
+  else if (e.target.value === "2") {
     let datosPago = document.getElementById("contenedor-datos-pago");
     datosPago.innerHTML = ` 
         <label for="datosBilleteraBitcoin" class="col-sm-2 col-form-label"></label>
@@ -24,7 +29,9 @@ medioPago.addEventListener("change", (e) => {
           <input type="text" class="form-control" id="inputPassword">
         </div>
         `;
-  } else if (e.target.value === "3") {
+  } 
+  /* Si la opción elegida es ETH, despliega menu para datos billetera ETH */
+  else if (e.target.value === "3") {
     let datosPago = document.getElementById("contenedor-datos-pago");
     datosPago.innerHTML = ` 
         <label for="datosBilleteraEthereum" class="col-sm-2 col-form-label"></label>
@@ -36,11 +43,13 @@ medioPago.addEventListener("change", (e) => {
   }
 });
 
+/* Lee total a pagar del Storage para informar importe total */
 const totalaPagar = document.getElementById("totalPagar");
 totalaPagar.innerHTML = `<div class="totalPagar">Total a pagar: ${localStorage.getItem(
   "totalCompra"
 )} USD</div>`;
 
+/* Botón realiza pago */
 let realizaPago = document.getElementById("realizar-pago");
 realizaPago.addEventListener("click", () => {
   let timerInterval;
