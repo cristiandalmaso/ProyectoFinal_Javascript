@@ -264,27 +264,34 @@ const btnAccion = (e) => {
 //Confirmar compra
 let confirmarCompra = document.getElementById("confirmar-compra");
 confirmarCompra.addEventListener("click", () => {
-    let timerInterval
-Swal.fire({
-  title: 'Procesando compra',
-  timer: 1000,
-  timerProgressBar: true,
-  background: '#e9ecef',
-  color: '#000',
+  if (!localStorage.getItem("totalCompra")) {
+    Swal.fire({
+      icon: "error",
+      text: "No hay items en el carrito",
+    });
+  } else {
+    let timerInterval;
+    Swal.fire({
+      title: "Procesando compra",
+      timer: 1000,
+      timerProgressBar: true,
+      background: "#e9ecef",
+      color: "#000",
 
-  didOpen: () => {
-    Swal.showLoading()
-    const b = Swal.getHtmlContainer().querySelector('b')
-    timerInterval = setInterval(() => {
-      /* b.textContent = Swal.getTimerLeft() */
-    }, 100)
-  },
-  willClose: () => {
-    clearInterval(timerInterval)
+      didOpen: () => {
+        Swal.showLoading();
+        const b = Swal.getHtmlContainer().querySelector("b");
+        timerInterval = setInterval(() => {
+          /* b.textContent = Swal.getTimerLeft() */
+        }, 100);
+      },
+      willClose: () => {
+        clearInterval(timerInterval);
+      },
+    }).then((result) => {
+      if (result.dismiss === Swal.DismissReason.timer) {
+        open("./html/confirmarCompra.html");
+      }
+    });
   }
-}).then((result) => {
-  if (result.dismiss === Swal.DismissReason.timer) {
-    open("./html/confirmarCompra.html");
-  }
-})
 });
